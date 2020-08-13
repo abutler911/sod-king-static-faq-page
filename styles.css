@@ -23,7 +23,7 @@ p {
 	grid-gap: 5px;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 100px) {
 	.sidebar {
 		float: left;
 		width: 19.1489%;
@@ -77,11 +77,12 @@ p {
 		clear: both;
 		border: 1px solid black;
 		text-align: center;
-		background: lightgrey;
+		background: #1bc53d;
 	}
 
 	.header h1 {
 		font-size: 54px;
+		color: ;
 	}
 }
 
