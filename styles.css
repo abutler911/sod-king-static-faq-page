@@ -77,12 +77,12 @@ p {
 		clear: both;
 		border: 1px solid black;
 		text-align: center;
-		background: #1bc53d;
+		background: gray;
 	}
 
 	.header h1 {
 		font-size: 54px;
-		color: gray;
+		color: black;
 	}
 }
 
