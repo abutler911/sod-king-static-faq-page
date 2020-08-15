@@ -17,7 +17,7 @@
 body {
 	/* margin: 40px; */
 	font-family: Arial, 'Open Sans', sans-serif;
-	background-color: lightgrey
+	background-color: lightgrey;
 	color: #bcbcbc;
 }
 
@@ -95,7 +95,6 @@ p {
 		border: 1px solid green;
 		text-align: center;
 		color: green;
-		
 	}
 
 	.header h1 {
