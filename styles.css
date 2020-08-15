@@ -17,7 +17,7 @@
 body {
 	/* margin: 40px; */
 	font-family: Arial, 'Open Sans', sans-serif;
-	background-color: #3fa34d;
+	background-color: lightgrey
 	color: #bcbcbc;
 }
 
@@ -78,7 +78,7 @@ p {
 	.content h1 {
 		border: 1px solid black;
 		border-radius: 5px;
-		background-color: gray;
+		background-color: green;
 		color: white;
 		padding: 5px;
 	}
@@ -92,9 +92,10 @@ p {
 	.footer {
 		grid-column: 1 / -1;
 		clear: both;
-		border: 1px solid black;
+		border: 1px solid green;
 		text-align: center;
-		background: gray;
+		color: green;
+		
 	}
 
 	.header h1 {
