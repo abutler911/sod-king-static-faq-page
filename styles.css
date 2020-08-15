@@ -4,10 +4,20 @@
 	box-sizing: border-box;
 }
 
+.bg-image {
+	background-image: url("dew-1507498_1920.jpg");
+	filter: blur(8px);
+	-webkit-filter: blur(8px);
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 body {
-	margin: 40px;
+	/* margin: 40px; */
 	font-family: Arial, 'Open Sans', sans-serif;
-	background-color: #fff;
+	background-color: #3fa34d;
 	color: #bcbcbc;
 }
 
@@ -21,6 +31,8 @@ p {
 	margin: 0 20px;
 	display: grid;
 	grid-gap: 5px;
+
+	/* border: 2px solid black; */
 }
 
 @media screen and (min-width: 100px) {
@@ -33,7 +45,8 @@ p {
 	.sidebar h1 {
 		border: 1px solid black;
 		border-radius: 5px;
-		background-color: #7b7b7b;
+		/* background-color: #7b7b7b; */
+		background-color: #2a9134;
 		color: white;
 		padding: 5px;
 	}
@@ -46,9 +59,13 @@ p {
 		font-size: 18px;
 		font-family: arial;
 		margin: 8px;
-		background-color: hsl(0, 1%, 96%);
+		/* background-color: hsl(0, 1%, 96%); */
 		padding: 7px;
 		border-radius: 5px;
+		display: inline-grid;
+	}
+	.sidebar a {
+		color: green;
 	}
 
 	.content {
