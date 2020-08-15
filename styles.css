@@ -17,7 +17,7 @@
 body {
 	/* margin: 40px; */
 	font-family: Arial, 'Open Sans', sans-serif;
-	background-color: lightgrey;
+	background-color: hsla(135, 43%, 46%, 0.54);
 	color: #bcbcbc;
 }
 
@@ -30,7 +30,7 @@ p {
 	max-width: 1640px;
 	margin: 0 20px;
 	display: grid;
-	grid-gap: 5px;
+	grid-gap: 30px;
 
 	/* border: 2px solid black; */
 }
@@ -40,13 +40,14 @@ p {
 		float: left;
 		width: 19.1489%;
 		border: 1px solid black;
+		background-color: hsla(135, 43%, 46%, 0.75);
 	}
 
 	.sidebar h1 {
 		border: 1px solid black;
 		border-radius: 5px;
 		/* background-color: #7b7b7b; */
-		background-color: #2a9134;
+		background-color: green;
 		color: white;
 		padding: 5px;
 	}
@@ -65,7 +66,7 @@ p {
 		display: inline-grid;
 	}
 	.sidebar a {
-		color: green;
+		color: black;
 	}
 
 	.content {
@@ -73,6 +74,7 @@ p {
 		width: 79.7872%;
 		border: 1px solid black;
 		line-height: 20px;
+		background-color: hsla(135, 43%, 46%, 0.75);
 	}
 
 	.content h1 {
@@ -92,14 +94,20 @@ p {
 	.footer {
 		grid-column: 1 / -1;
 		clear: both;
-		border: 1px solid green;
+		border: 1px solid black;
 		text-align: center;
-		color: green;
+		font-family: 'Anton', sans-serif;
+		letter-spacing: 15px;
+		font-weight: 100;
+		background-color: hsla(135, 43%, 46%, 0.75);
+		height: 120px;
 	}
 
 	.header h1 {
 		font-size: 54px;
 		color: black;
+		/* -webkit-text-stroke-width: 1px;
+		-webkit-text-stroke-color: black; */
 	}
 }
 
